@@ -1,22 +1,19 @@
 {
-  "$schema": "../../../node_modules/@ms/sp-modules-common/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
 
-  "id": "c678eac1-35ed-4395-a972-10d662d5ae0b",
+  "id": "9a607045-9f26-44c7-8b39-048d16bc0fee",
   "componentType": "WebPart",
   "version": "0.0.1",
   "manifestVersion": 2,
+
   "preconfiguredEntries": [{
-    "groupId": "c678eac1-35ed-4395-a972-10d662d5ae0b",
-    "group": { "default": "Bill's Web Parts" },
-    "title": { "default": "Bill's jQuery Widget WebPart" },
-    "description": { "default": "jQuery Widget Web Part" },
+    "groupId": "9a607045-9f26-44c7-8b39-048d16bc0fee",
+    "group": { "default": "Under Development" },
+    "title": { "default": "JQuery" },
+    "description": { "default": "jQuery Widget Webpart" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "jQuery Widget Web Part",
-      "value": 15,
-      "speed": 50,
-      "resize": false,
-      "sort": false
+      "description": "JQuery"
     }
   }]
 }

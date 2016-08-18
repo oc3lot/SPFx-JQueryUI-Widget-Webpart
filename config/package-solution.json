@@ -1,11 +1,10 @@
 {
   "solution": {
-    "name": "wbaer-jquery-widget-client-side-solution",
-    "id": "8a335f7d-b193-4357-8008-7b44941ae118",
+    "name": "jquery-widget-client-side-solution",
+    "id": "e67aea4d-7a68-46e5-92d7-a1f699532bed",
     "version": "1.0.0.0"
   },
   "paths": {
-    "manifestsMatch": "dist/**/*.manifest.json",
-    "zippedPackage": "wbaer-jquery-widget.spapp"
+    "zippedPackage": "jquery-widget.spapp"
   }
 }

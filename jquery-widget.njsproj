@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8a335f7d-b193-4357-8008-7b44941ae118}</ProjectGuid>
+    <ProjectGuid>{e67aea4d-7a68-46e5-92d7-a1f699532bed}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ProjectFiles</ProjectView>
     <StartupFile>node_modules\gulp\bin\gulp.js</StartupFile>
@@ -22,7 +22,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <Target Name="GulpToVs">
     <Message Text="Running gulp2vs.js" Importance="normal" />
-    <Exec Command="CMD.EXE /c node $(MSBuildThisFileDirectory)\node_modules\@ms\npmx\lib\gulp2vs.js" />
+    <Exec Command="CMD.EXE /c node $(MSBuildThisFileDirectory)\node_modules\@microsoft\npmx\lib\gulp2vs.js" />
   </Target>
   <ItemGroup>
     <Content Include="*.js" />

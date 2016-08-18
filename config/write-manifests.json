@@ -1,4 +1,3 @@
 {
-  "shouldWrapProductionManifestForManifestServer": false,
-  "cdnBasePath": "https://devkitchen.blob.core.windows.net/wbaer-jquery-widget/deploy/"
+  "cdnBasePath": "<!-- PATH TO CDN -->"
 }

@@ -1,22 +1,26 @@
 {
   "entries": [
     {
+      "entry": "./lib/webparts/jQueryWebpart/JQueryWebpartWebPart.js",
+      "manifest": "./src/webparts/jQueryWebpart/JQueryWebpartWebPart.manifest.json",
+      "outputPath": "./dist/j-query-webpart.bundle.js"
+    },
+    {
       "entry": "./lib/webparts/jQuery/JQueryWebPart.js",
       "manifest": "./src/webparts/jQuery/JQueryWebPart.manifest.json",
-      "outputPath": "./dist/j-query.bundle.js",
-      "configPath": "./dist/j-query.config.js"
+      "outputPath": "./dist/j-query.bundle.js"
     }
   ],
   "externals": {
-    "@ms/odsp-utilities-bundle": "node_modules/@ms/odsp-utilities-bundle/dist/odsp-utilities-bundle.js",
-    "@ms/office-ui-fabric-react": "node_modules/@ms/office-ui-fabric-react/dist/office-ui-fabric-react.js",
-    "@ms/sp-client-base": "node_modules/@ms/sp-client-base/dist/sp-client-base.js",
-    "@ms/sp-client-platform": "node_modules/@ms/sp-client-platform/dist/sp-client-platform.js",
-    "@ms/sp-lodash": "node_modules/@ms/sp-lodash/dist/sp-lodash.js",
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "@microsoft/sp-lodash-subset": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js",
+    "office-ui-fabric-react": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js",
     "react": "node_modules/react/dist/react.min.js",
     "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
-    "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
-    "jquery":"node_modules/jquery/dist/jquery.min.js",
-    "jqueryui":"node_modules/jqueryui/jquery-ui.min.js"
+    "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js"
+  },
+  "localizedResources": {
+    "mystrings": "webparts/jQuery/loc/{locale}.js"
   }
 }
