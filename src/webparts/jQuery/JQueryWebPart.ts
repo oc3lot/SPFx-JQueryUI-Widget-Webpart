@@ -117,7 +117,6 @@ export default class JQueryWebPart extends BaseClientSideWebPart<IJQueryWebPartP
     const accordionOptions: JQueryUI.AccordionOptions = {
       animate: this.properties.speed,
       collapsible: true,
-      heightStyle: this.properties.height,
       icons: {
         header: 'ui-icon-circle-arrow-e',
         activeHeader: 'ui-icon-circle-arrow-s'
