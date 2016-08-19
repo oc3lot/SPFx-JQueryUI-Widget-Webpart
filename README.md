@@ -1,6 +1,6 @@
 ## jquery-widget
 
-This is where you include your web part docs.
+To get started building the jQuery Widget Webpart refer to the walkthrough at https://github.com/wbaer/SPFx-JQueryUI-Widget-Webpart/wiki/Create-a-Basic-jQueryUI-SharePoint-Framework-Webpart-with-the-Accordion-Widget.
 
 ### Building the code
 
