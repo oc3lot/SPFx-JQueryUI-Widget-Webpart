@@ -13,7 +13,10 @@
     "description": { "default": "jQuery Widget Webpart" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "JQuery"
+      "description": "JQuery",
+      "speed": 50,
+      "resize": false,
+      "sort": false
     }
   }]
 }

@@ -6,10 +6,13 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "jqueryui/jqueryui.d.ts": {
-      "commit": "611669c15328d2356355e0cec6cc15df2abe42d6"
+      "commit": "57ec5fbb76060329c10959d449eb1d4e70b15a65"
     },
     "jquery/jquery.d.ts": {
-      "commit": "611669c15328d2356355e0cec6cc15df2abe42d6"
+      "commit": "57ec5fbb76060329c10959d449eb1d4e70b15a65"
+    },
+    "combokeys/combokeys.d.ts": {
+      "commit": "57ec5fbb76060329c10959d449eb1d4e70b15a65"
     }
   }
 }
